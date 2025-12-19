@@ -1,0 +1,5521 @@
+{
+  "meta": {
+    "project": "bstpstaking",
+    "mutant": "m7dfad905",
+    "generatedAt": "2025-11-29T09:02:13.828Z",
+    "sourceFile": "transactions.json",
+    "txHistorySize": 1175,
+    "samples": 1,
+    "candidatesPerSample": 100,
+    "killerRatio": 0.1
+  },
+  "samples": [
+    {
+      "id": "1",
+      "killers": [
+        "0x106ecf713381cc7ee659b224caebb8c2d8402304fcc03cc12f04d9acb19beb31",
+        "0xfd70d4311b5768c6b6bf7ecd75518b0b26ba2529cb7cf75e450bca9f0d366daa",
+        "0xe70b739d2c9d746514eb24b9ed0d3b51448a0a5913813a2864aa9be0ec65e691",
+        "0xa7831feb3b6ce91bfea938682651e70d662f1266659cbce6eaf0526e45512a68",
+        "0xab461bed3349317736818b1dabb4b0c82cc986f81bc20a4f98abb1cf118525e2",
+        "0xcd09dc92e8736934e461988f29064ea4e49ccc41310e47a797ab8e787536e77d",
+        "0x49e5774ab139905928ff21d948254adc70aa28ff5eea2ac796f32b0549b267a3",
+        "0x6e53ec51854bc45ec72e747b9db61797e1b20b6c0f523a3f2ead783fd267ed91",
+        "0x9a0ed5a06fb6051d9a659f829e57ea0e382f714cb43d55efaa317c69cfae14ee",
+        "0x80288ad5dc62d58560df110a3535af497449f9f6f4f71e34500b9f5045943ea7"
+      ],
+      "transactions": [
+        {
+          "blockNumber": "16960144",
+          "blockHash": "0x37c68d49132cfa002f399ac1ebbe80e23835443dd601c925ddb956958c083936",
+          "timeStamp": "1680423131",
+          "hash": "0x9044ec8b60a60d3395a2c0af75805fe9de9ef145617fac65e45690b1df34da2e",
+          "nonce": "996",
+          "transactionIndex": "61",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "18791651137",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000070f00ed4b18fcfe060",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3240768",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3882193",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2083333333333333500000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 1
+        },
+        {
+          "blockNumber": "20124501",
+          "blockHash": "0x86760df734bcf068ee5b8c0828f43a7a7e0f5e79e3331343247cdff6974306a4",
+          "timeStamp": "1718784611",
+          "hash": "0x112ee88764a7d60e7dccfa2cfe230182fdbb4c23520658a84077679418d73400",
+          "nonce": "4430",
+          "transactionIndex": "48",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "7997443504",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000402bf52b936dd248c0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "2930303",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "717836",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1183759106542539000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 2
+        },
+        {
+          "blockNumber": "17477166",
+          "blockHash": "0x98a7be60773f06d60d883cf1d05ef3b47e5d54729a970d10c15f7103357bdb23",
+          "timeStamp": "1686733331",
+          "hash": "0xaef34b8afe208c91dbae6c97ee0833aca5a94e75db707be238d62aa32d1b0d5e",
+          "nonce": "1478",
+          "transactionIndex": "63",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "17466061263",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006dbbe70d90e8c83ba0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "5247313",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3365171",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2024234909755085700000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 3
+        },
+        {
+          "blockNumber": "18272688",
+          "blockHash": "0xe9b389dccb0c21f4af4d11d36c4674ee292b5f8c44fd8215d019afa284252877",
+          "timeStamp": "1696368551",
+          "hash": "0x81e2e7b1be485cc429132e1f38981069e2f63442881a0e05a59ef346a29b23e0",
+          "nonce": "2370",
+          "transactionIndex": "36",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "15701869091",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000068ce4cd650017c8c00",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "1912345",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "2569649",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1933326875774947200000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 4
+        },
+        {
+          "blockNumber": "18462004",
+          "blockHash": "0x077f6629f512396f95d92090e063665126c0cdd468d8d0821c3f4343f2d2e557",
+          "timeStamp": "1698657167",
+          "hash": "0x106ecf713381cc7ee659b224caebb8c2d8402304fcc03cc12f04d9acb19beb31",
+          "nonce": "24",
+          "transactionIndex": "72",
+          "from": "0xcdae8098ab8722da8546d4481b588dbea74242ee",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "518895",
+          "gasPrice": "18867280442",
+          "input": "0x51cff8d9000000000000000000000000c006760b1f981c86493d8683913eed5ee0bdf52c",
+          "methodId": "0x51cff8d9",
+          "functionName": "withdraw(address addr)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "7581686",
+          "txreceipt_status": "1",
+          "gasUsed": "296930",
+          "confirmations": "2380333",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "withdraw(address addr)",
+              "selector": "0x51cff8d9",
+              "types": [
+                "address"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0xc006760b1f981c86493d8683913eed5ee0bdf52c"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x51cff8d9|address:other",
+            "stats": {
+              "p95Gas": 311827,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 5
+        },
+        {
+          "blockNumber": "18036228",
+          "blockHash": "0xb9a84f4b20222449d2c10854c2542dda78bcaf28df9aaacbc2d948825182aac9",
+          "timeStamp": "1693505051",
+          "hash": "0x0f32c8a332902ef7a880dad60dc8362bf8c622e3ab76c4422014d250ef0a0aad",
+          "nonce": "2106",
+          "transactionIndex": "62",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "41242935977",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000690b97b1e82de5cd00",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "5745324",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "2806109",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1937743459606164000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 6
+        },
+        {
+          "blockNumber": "18932679",
+          "blockHash": "0x462e616992a76f3ff2dece2495ecf028e900a6d3aa2ddcbad867068248d20ea8",
+          "timeStamp": "1704355751",
+          "hash": "0xbf6489a08a8745746e35f77a052c289ef563ae490967385f26a3f35520ef5dbd",
+          "nonce": "3110",
+          "transactionIndex": "84",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "19165115019",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000662423c1c1d5b4fa80",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "10363593",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1909658",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1884172033566182800000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 7
+        },
+        {
+          "blockNumber": "17125812",
+          "blockHash": "0x7b9b201d99497e6047aca7f691a219ba77c45bccf223859a65f82d96bd8a7a10",
+          "timeStamp": "1682456495",
+          "hash": "0xfd70d4311b5768c6b6bf7ecd75518b0b26ba2529cb7cf75e450bca9f0d366daa",
+          "nonce": "14",
+          "transactionIndex": "88",
+          "from": "0xe3d7304c4a176c834d4fa19691427f53425671da",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "518895",
+          "gasPrice": "51915647630",
+          "input": "0x51cff8d900000000000000000000000093a46e0ed4c63bcf716e84d0161a6298c74fce54",
+          "methodId": "0x51cff8d9",
+          "functionName": "withdraw(address addr)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "12080174",
+          "txreceipt_status": "1",
+          "gasUsed": "296930",
+          "confirmations": "3716525",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "withdraw(address addr)",
+              "selector": "0x51cff8d9",
+              "types": [
+                "address"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x93a46e0ed4c63bcf716e84d0161a6298c74fce54"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x51cff8d9|address:other",
+            "stats": {
+              "p95Gas": 311827,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 8
+        },
+        {
+          "blockNumber": "19731164",
+          "blockHash": "0x21662295a866ccaae39ce92a9b6fbb1e252331991fee81644d13a44e4112b6a8",
+          "timeStamp": "1714033391",
+          "hash": "0xdffc119e93c9575ae368cbe28f20d89752b1670c3028773426ae3389d13c5d34",
+          "nonce": "3990",
+          "transactionIndex": "197",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "15935383758",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003dd21df03c31e4b3e0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "18040256",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1111173",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1140391910159897900000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 9
+        },
+        {
+          "blockNumber": "17319068",
+          "blockHash": "0x25d8bacf4d2af08322f86db859c133766f5edd8fa98cbb6714fca197b8b79c1b",
+          "timeStamp": "1684809995",
+          "hash": "0xc2467251882eb44d5415c8fddda0ba28022dedaeeca039a9fa1e56bb4cb2aba3",
+          "nonce": "14",
+          "transactionIndex": "50",
+          "from": "0x9b3a7f1ea2d1cc8e41455c0e61a3889ad7a310d2",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "450846",
+          "gasPrice": "41611722469",
+          "input": "0x47e7ef24000000000000000000000000c73a21bd2cd3799ed5656d362311a589228b04f500000000000000000000000000000000000000000000021e19e0c9bab2400000",
+          "methodId": "0x47e7ef24",
+          "functionName": "deposit(address token, uint256 amount)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6072316",
+          "txreceipt_status": "1",
+          "gasUsed": "281778",
+          "confirmations": "3523269",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "deposit(address token, uint256 amount)",
+              "selector": "0x47e7ef24",
+              "types": [
+                "address",
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0xc73a21bd2cd3799ed5656d362311a589228b04f5"
+              },
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "10000000000000000000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x47e7ef24|address:other|uint256:other",
+            "stats": {
+              "p95Gas": 286578,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 10
+        },
+        {
+          "blockNumber": "19011343",
+          "blockHash": "0x231ea47836273dbf4e80e3d87f42ff56facbe14bbd49402b9c98bc7d862e631f",
+          "timeStamp": "1705310291",
+          "hash": "0xfad01488359d94785d233c0a7bb774ae8944c943ff18a3fbfdf10ea7f697350d",
+          "nonce": "3198",
+          "transactionIndex": "46",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "19243173135",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006647b7a7d0f7586580",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3263792",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1830994",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1886735679131750000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 11
+        },
+        {
+          "blockNumber": "20152611",
+          "blockHash": "0xdbf10e529c844a4b419ca8ca7d119c3bbd06753c5f2ca172e0d23d74beb47339",
+          "timeStamp": "1719124091",
+          "hash": "0x74218a134b0b165b1006edac690204834d0dd21de24457913c436e577bc30aa2",
+          "nonce": "4462",
+          "transactionIndex": "46",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "3420904522",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000040c438d4ae05d1a900",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "7385393",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "689726",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1194730905591428000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 12
+        },
+        {
+          "blockNumber": "19684703",
+          "blockHash": "0x688f3d327726733e6f0b2f37654183dd69b72969cd2130630a65287a1ccda41e",
+          "timeStamp": "1713471851",
+          "hash": "0x7a4d6f317d65d16e1ec320ef4f79a48732d55066766fc703eee253359cf6daef",
+          "nonce": "3938",
+          "transactionIndex": "63",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "11940154902",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003cdb1cc4fc50603ba0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "2548869",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1157634",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1122593355404186500000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 13
+        },
+        {
+          "blockNumber": "16789376",
+          "blockHash": "0x25f6183ee7ff05598dc8ca22c6616e7eb9b1c35ee30cec82bd7517636910a644",
+          "timeStamp": "1678349471",
+          "hash": "0x070f2ce2f95eacc07ae3f679b630dd52b0398d4e5293d6ccbfb20ac1e690e07a",
+          "nonce": "852",
+          "transactionIndex": "55",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "25015907619",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006d4b6930ede601cbc0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3640147",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "4052961",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2016129032258064600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 14
+        },
+        {
+          "blockNumber": "17825990",
+          "blockHash": "0x2027808ba9cf65519c84f3049ac69ef86a09add3d8296a570b21881012ff82de",
+          "timeStamp": "1690963331",
+          "hash": "0xf051927bbaa02bccd30e4e085c78c09b53e562ed5bb83a007faf408514e1aa9d",
+          "nonce": "1870",
+          "transactionIndex": "73",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "18129586067",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000683942e3d466554580",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4706537",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3016347",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1922587494375807600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 15
+        },
+        {
+          "blockNumber": "19524666",
+          "blockHash": "0x8860ae5f1e01171a34f5965307dfb5d0c9ffb0c8f8c3edc751f547afe27ee6ac",
+          "timeStamp": "1711530371",
+          "hash": "0xc55affca1215c084bf128ba0988f72307688e82dad27f78deb20fcd099ee6cfd",
+          "nonce": "3758",
+          "transactionIndex": "153",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "32145494384",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000042b6096e49960ba360",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "13474477",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1317671",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1230602245516852700000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 16
+        },
+        {
+          "blockNumber": "17161144",
+          "blockHash": "0xa43c02811fb81b58cbc05753d10075e5e7caeb0d8f8e3d771d54a54b41b4c00b",
+          "timeStamp": "1682885351",
+          "hash": "0x3e31dccc799ca51522df8781f1176ff555c5a955ca9ed86372629d828c265698",
+          "nonce": "1167",
+          "transactionIndex": "61",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "58317838893",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000070f00ed4b18fcfe060",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "5471976",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3681193",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2083333333333333500000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 17
+        },
+        {
+          "blockNumber": "20070908",
+          "blockHash": "0x944f85f4c6a1506ea7bc0d07856d1288347bb49bff7c2d322ef9aa96dd11f5d8",
+          "timeStamp": "1718136911",
+          "hash": "0xdf6795024f67646d7007778da79df9112f1348c89c7750db89048817d111b882",
+          "nonce": "4370",
+          "transactionIndex": "246",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "16428774652",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003fe1ad206102995280",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "27608341",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "771429",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1178406566074234000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 18
+        },
+        {
+          "blockNumber": "17228435",
+          "blockHash": "0x0b5bbddbe3d3855a8053c1c39c1229628c5eda2c3d645ce7cfac709ca2333ff0",
+          "timeStamp": "1683702611",
+          "hash": "0xd8a584f7752f1b5d92576793ad0d6013b1681457df90a510b1e9a3e584eba109",
+          "nonce": "1224",
+          "transactionIndex": "91",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "59959338348",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006d4b6930ede601cbc0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "5926768",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3613902",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2016129032258064600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 19
+        },
+        {
+          "blockNumber": "17725706",
+          "blockHash": "0xf8b2ce9e725ef6c46488c8e820c111b3d3e038dbdf388ddcba7335d3830e2ff3",
+          "timeStamp": "1689751151",
+          "hash": "0xb206c015a56f634d4c8eb0fafbb25365f46b65870d6b4522171caf3afa1bcaf0",
+          "nonce": "1758",
+          "transactionIndex": "114",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "20904771765",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000682b8b6617be5b83c0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "10198353",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3116631",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1921599097483351000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 20
+        },
+        {
+          "blockNumber": "17526131",
+          "blockHash": "0x823615aaca24f369520b965bc3a98fc19ffe73569d75288c484ac32c6a859325",
+          "timeStamp": "1687327391",
+          "hash": "0xb1b9efbac9f43c42c32e444afb5b57af6366e656adbef9769cb85e19a187673d",
+          "nonce": "1534",
+          "transactionIndex": "59",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "15345600294",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006aef42bb1757800180",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6349108",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3316206",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1972595419845666800000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 21
+        },
+        {
+          "blockNumber": "20338238",
+          "blockHash": "0xafbcf1d2c75842d9e4e07d70c86c24d7db792ba7eb084d48bf502276f65d185f",
+          "timeStamp": "1721363927",
+          "hash": "0x07bc3b868e7f0dbc2ed63b76bc32cea7438c29e919b2cb52930a54f9db338cdd",
+          "nonce": "4718",
+          "transactionIndex": "134",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "4733009436",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003ea08d732280736180",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "14848641",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "504099",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1155267162179798000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 22
+        },
+        {
+          "blockNumber": "20138531",
+          "blockHash": "0x86e4bd366153f02c3aff816270f18bfae32d727163de1f835ff1c74585d80ca8",
+          "timeStamp": "1718954051",
+          "hash": "0xd2058a0a741fb6255e316635f27d0a4aa2ea54565d1c9d0eb2e86df63b773e53",
+          "nonce": "4446",
+          "transactionIndex": "47",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "4283560533",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000402bf52b936dd248c0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4534552",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "703806",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1183759106542539000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 23
+        },
+        {
+          "blockNumber": "18622506",
+          "blockHash": "0x5a133343b4940c54f9ef01c15e8859500cacdd5175713ae1d1c07aab5ae7bf46",
+          "timeStamp": "1700598311",
+          "hash": "0x16a89da34fe1d9053286593c4eb5d506d12f3d99e3ee001ff44741932cc04b8e",
+          "nonce": "2762",
+          "transactionIndex": "81",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "42495343646",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006a94778927ba283160",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4877020",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2219831",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1966053042056774300000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 24
+        },
+        {
+          "blockNumber": "18507508",
+          "blockHash": "0x06395737e31cd894b1b42497741307aa85626e925bcbc6d3c2c8f883e39d4947",
+          "timeStamp": "1699207931",
+          "hash": "0xf02d58ecabd1d3610cc5424c59d26087786ac900c1f47de9af6a717fb0a3d1b5",
+          "nonce": "2634",
+          "transactionIndex": "86",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "28955393338",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006b6bb610e76c2c8c00",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "5014186",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "2334829",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1981563025480880000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 25
+        },
+        {
+          "blockNumber": "20163311",
+          "blockHash": "0x1725319b2a0ea5335a83931854c6a5295789869f54c28afb6e70f2ef63fede91",
+          "timeStamp": "1719253451",
+          "hash": "0x370e52ad6604a397814776a59e7be59b067827b04a261ded2c14100b1109386f",
+          "nonce": "4474",
+          "transactionIndex": "95",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "14210821071",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000040ca6b2b346f74b540",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "8972271",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "679026",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1195177420039789000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 26
+        },
+        {
+          "blockNumber": "16881250",
+          "blockHash": "0x1ad718e012f4f4159ec30d6755c8153131c63f3d5dc2da18542c26d6dedf64b6",
+          "timeStamp": "1679465231",
+          "hash": "0x640aa90f85202b4cd95e6fd9597eadf5abdf5f862f6921fd01285dbd87eb1cd7",
+          "nonce": "930",
+          "transactionIndex": "35",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "14997775503",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006d4b6930ede601cbc0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3058499",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3961087",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2016129032258064600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 27
+        },
+        {
+          "blockNumber": "18293449",
+          "blockHash": "0x35903662d4699c0c3904e3084b11bc23e03ea5a476a1b6d181c638235b7a2753",
+          "timeStamp": "1696619351",
+          "hash": "0x68d54bf9db4c3119ffdcd94a2ebdeee7e3604c70514a3cea5dc41ca4b62e9906",
+          "nonce": "2394",
+          "transactionIndex": "133",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "10426379167",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000068cd03b690c50f7f80",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "18343524",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2548888",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1933234235601396400000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 28
+        },
+        {
+          "blockNumber": "18065368",
+          "blockHash": "0xcbba1bdd7d1ce4ec9c9b6a8bb2df6fc043d1313f88ad60abb2d4f71a73ca9e70",
+          "timeStamp": "1693857671",
+          "hash": "0xabcbe210ad770d33d9d24f0b8e614292c8df6cc28ad6252c46062f7453833270",
+          "nonce": "2138",
+          "transactionIndex": "71",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "27865959560",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006c8bfa9e3cb7f5fe80",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4670449",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2776969",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2002334908259702800000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 29
+        },
+        {
+          "blockNumber": "18780465",
+          "blockHash": "0x27f4db5962e4d01f263302d38315b1e68837f38285a9d2b0826a59d0fa922f00",
+          "timeStamp": "1702509443",
+          "hash": "0x7c9cdb9fd07a0e95dd225ef751470ce88b43ad6e9e209b3b95404c7a6849e39b",
+          "nonce": "9",
+          "transactionIndex": "167",
+          "from": "0x8c2da3f6d38021b59ff0bc1c08d12924da22da56",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "375705",
+          "gasPrice": "57967964114",
+          "input": "0x47e7ef240000000000000000000000001b1c610a237168400593c38b85c4ec728716ef4b00000000000000000000000000000000000000000000021e19e0c9bab2400000",
+          "methodId": "0x47e7ef24",
+          "functionName": "deposit(address token, uint256 amount)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "15915240",
+          "txreceipt_status": "1",
+          "gasUsed": "286578",
+          "confirmations": "2061872",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "deposit(address token, uint256 amount)",
+              "selector": "0x47e7ef24",
+              "types": [
+                "address",
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x1b1c610a237168400593c38b85c4ec728716ef4b"
+              },
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "10000000000000000000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x47e7ef24|address:other|uint256:other",
+            "stats": {
+              "p95Gas": 286578,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 30
+        },
+        {
+          "blockNumber": "18247202",
+          "blockHash": "0x8d8aeb9f51f99a57dab8e241c28224d21e5a04db12f0637008fc2d93da5f5928",
+          "timeStamp": "1696060931",
+          "hash": "0x54c61e087831ece5113fe0f047febc213677f19b3fe57d058b35f4f49858361e",
+          "nonce": "2342",
+          "transactionIndex": "38",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "9262987373",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006c4ca4bb52ac365700",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3290905",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "2595135",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1997771104967445600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 31
+        },
+        {
+          "blockNumber": "17003297",
+          "blockHash": "0x786812b971a00f3ad5e50ed95c2afbd430935cda2612a0eb68f21dc312559bd0",
+          "timeStamp": "1680952211",
+          "hash": "0xe70b739d2c9d746514eb24b9ed0d3b51448a0a5913813a2864aa9be0ec65e691",
+          "nonce": "42",
+          "transactionIndex": "27",
+          "from": "0x6e074b3aa4b1fddda2b0fcb6b4c4c70875b548b3",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "515538",
+          "gasPrice": "20895204630",
+          "input": "0x51cff8d9000000000000000000000000a1c574c0db64ba4ce011da8cd5fa6386d94a5d72",
+          "methodId": "0x51cff8d9",
+          "functionName": "withdraw(address addr)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "1774731",
+          "txreceipt_status": "1",
+          "gasUsed": "294727",
+          "confirmations": "3839040",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "withdraw(address addr)",
+              "selector": "0x51cff8d9",
+              "types": [
+                "address"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0xa1c574c0db64ba4ce011da8cd5fa6386d94a5d72"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x51cff8d9|address:other",
+            "stats": {
+              "p95Gas": 311827,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 32
+        },
+        {
+          "blockNumber": "19710114",
+          "blockHash": "0x496562c6f1b8b173f1505e051bfea2e671160df54a8b13550a8c675d430ae7a4",
+          "timeStamp": "1713778979",
+          "hash": "0x71a93113087b01233d6a75b25863b56cc2d4ca947f24a3540208f7d1f5e5efbf",
+          "nonce": "77",
+          "transactionIndex": "200",
+          "from": "0x1452c939c313eecd2c62c7ab120617b8e2e82abd",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "451776",
+          "gasPrice": "7439853411",
+          "input": "0x47e7ef240000000000000000000000005618445796be4a1cc3d274b89bb00ecfb92c28ae00000000000000000000000000000000000000000000021e19e0c9bab2400000",
+          "methodId": "0x47e7ef24",
+          "functionName": "deposit(address token, uint256 amount)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "18140904",
+          "txreceipt_status": "1",
+          "gasUsed": "286578",
+          "confirmations": "1132223",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "deposit(address token, uint256 amount)",
+              "selector": "0x47e7ef24",
+              "types": [
+                "address",
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x5618445796be4a1cc3d274b89bb00ecfb92c28ae"
+              },
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "10000000000000000000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x47e7ef24|address:other|uint256:other",
+            "stats": {
+              "p95Gas": 286578,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 33
+        },
+        {
+          "blockNumber": "16714381",
+          "blockHash": "0xd3f3a54d1623cb9930854408099e7e63c31a25b59f89dad4cab092128b81775c",
+          "timeStamp": "1677438431",
+          "hash": "0x7df6360b716c7f27fc80f0157f4f53ad44052816c3546b3949dbb1fc2701f589",
+          "nonce": "793",
+          "transactionIndex": "40",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "27091286186",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000f20268ec57eb0c0ac0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6425981",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "4127956",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "4464285714285715000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 34
+        },
+        {
+          "blockNumber": "17690350",
+          "blockHash": "0x6e68111b7a07956eee24567a3a2b553a18b9c7e728b662ccb166916f69bd6b40",
+          "timeStamp": "1689321299",
+          "hash": "0x37890a125406e5e42ba213b40b55685bc6c328fc0106903b123b70d8312c1000",
+          "nonce": "12",
+          "transactionIndex": "111",
+          "from": "0x4a8e5fde352f1cf1af5c7dfd2975197a7dee64ee",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "450846",
+          "gasPrice": "21027357095",
+          "input": "0x47e7ef2400000000000000000000000033bb4ae18046c6300c042119d21eeb9b5c6eb39c00000000000000000000000000000000000000000000021e19e0c9bab2400000",
+          "methodId": "0x47e7ef24",
+          "functionName": "deposit(address token, uint256 amount)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "10100632",
+          "txreceipt_status": "1",
+          "gasUsed": "281778",
+          "confirmations": "3151987",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "deposit(address token, uint256 amount)",
+              "selector": "0x47e7ef24",
+              "types": [
+                "address",
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x33bb4ae18046c6300c042119d21eeb9b5c6eb39c"
+              },
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "10000000000000000000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x47e7ef24|address:other|uint256:other",
+            "stats": {
+              "p95Gas": 286578,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 35
+        },
+        {
+          "blockNumber": "19533487",
+          "blockHash": "0xca754f54005a1c2e813136658de6c6fd26869c8842e31435ef88da86f75fa8a1",
+          "timeStamp": "1711639799",
+          "hash": "0x9920c06a362172692e96bab008e569caa257aaec2c8f130f3564a55f2f52357b",
+          "nonce": "19",
+          "transactionIndex": "46",
+          "from": "0x58434597bbb55b33d4412cb68a700ab2a9ef173f",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "283192",
+          "gasPrice": "47292080748",
+          "input": "0x47e7ef24000000000000000000000000486c0333cb732265034e15f579419fa2ee4f9b6a00000000000000000000000000000000000000000000021e19e0c9bab2400000",
+          "methodId": "0x47e7ef24",
+          "functionName": "deposit(address token, uint256 amount)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3529439",
+          "txreceipt_status": "1",
+          "gasUsed": "269478",
+          "confirmations": "1308850",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "deposit(address token, uint256 amount)",
+              "selector": "0x47e7ef24",
+              "types": [
+                "address",
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x486c0333cb732265034e15f579419fa2ee4f9b6a"
+              },
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "10000000000000000000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x47e7ef24|address:other|uint256:other",
+            "stats": {
+              "p95Gas": 286578,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 36
+        },
+        {
+          "blockNumber": "20334654",
+          "blockHash": "0x75a1fae3d25e91b1d3b3bfd28714a1d87135fe3c3b0c6622197043e83d78dc95",
+          "timeStamp": "1721320739",
+          "hash": "0x1c64ad766dfa4fa9d74a4d2ce01848b8d5a7da03dd7621fcc2404e4022284ea2",
+          "nonce": "4713",
+          "transactionIndex": "72",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "11528320220",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003ea08d732280736180",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "5526142",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "507683",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1155267162179798000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 37
+        },
+        {
+          "blockNumber": "17420132",
+          "blockHash": "0x942fa4be859ab557f92bc491af6d9f7c238300ac4ad1ce5ec7aee8ce95510d98",
+          "timeStamp": "1686038891",
+          "hash": "0x70f6a60ffde5d6f154466a7f3cee3fb93a235a0b59ea6d820ec8265e2456b8f8",
+          "nonce": "1414",
+          "transactionIndex": "96",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "22608411527",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006d8a005de5cf053420",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "9289706",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "3422205",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2020639155253177300000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 38
+        },
+        {
+          "blockNumber": "17003306",
+          "blockHash": "0x4625cf639b14c845d4df03a85583127f683a044caea8b1f2054007a124114ded",
+          "timeStamp": "1680952319",
+          "hash": "0xa7831feb3b6ce91bfea938682651e70d662f1266659cbce6eaf0526e45512a68",
+          "nonce": "43",
+          "transactionIndex": "9",
+          "from": "0x6e074b3aa4b1fddda2b0fcb6b4c4c70875b548b3",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "515538",
+          "gasPrice": "24698155540",
+          "input": "0x51cff8d90000000000000000000000009b995976235c572c41aa58a5b4799d9da9a060e9",
+          "methodId": "0x51cff8d9",
+          "functionName": "withdraw(address addr)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "1197649",
+          "txreceipt_status": "1",
+          "gasUsed": "294727",
+          "confirmations": "3839031",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "withdraw(address addr)",
+              "selector": "0x51cff8d9",
+              "types": [
+                "address"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x9b995976235c572c41aa58a5b4799d9da9a060e9"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x51cff8d9|address:other",
+            "stats": {
+              "p95Gas": 311827,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 39
+        },
+        {
+          "blockNumber": "16849826",
+          "blockHash": "0xb8cf378fc65125a3053d890724b6be34697b088d8f1dc12bbccdc0877e8e4654",
+          "timeStamp": "1679083991",
+          "hash": "0x80e09ee94a4e36b98190b78ad2edf1fcb6653fec9527e2090f299667d8806578",
+          "nonce": "903",
+          "transactionIndex": "51",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "27836834801",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006d4b6930ede601cbc0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3748704",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3992511",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2016129032258064600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 40
+        },
+        {
+          "blockNumber": "17331134",
+          "blockHash": "0x2efc06a804bc9fade0e59493dc1c3c859a797c119008be7724a9123aac98d972",
+          "timeStamp": "1684956611",
+          "hash": "0xad4b19e15ecda887055f58e131ac97b7d7cd37d3ae2d981ea8e297633ff1bdb8",
+          "nonce": "1314",
+          "transactionIndex": "407",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "40993668447",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006cbf4a3e4b963abce0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "22144472",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3511203",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2006032258064516300000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 41
+        },
+        {
+          "blockNumber": "20345405",
+          "blockHash": "0xe6fcf01897055c8c2bb243d17cbd398d8cfbc8f329ef0a8fc46087a6c88c2951",
+          "timeStamp": "1721450327",
+          "hash": "0x362749b5b2666d4058ea11e8a23dad81d0e38ac085956936947ba1da2e7db683",
+          "nonce": "4728",
+          "transactionIndex": "92",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "2102472764",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003eb695d157981d76c0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6017380",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "496932",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1156854784630569400000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 42
+        },
+        {
+          "blockNumber": "19146577",
+          "blockHash": "0x19256da54d6ebc672202cf004be49cd2c069e4d4a3b077e45801b87e6f72fb09",
+          "timeStamp": "1706948111",
+          "hash": "0x8ff5e5a995f90cacc168e94c841423644b6e694c451c843c70447926d051a888",
+          "nonce": "3334",
+          "transactionIndex": "55",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "16591320081",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000069bf4a2c7042fa4040",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3183795",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1695760",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1950692006209695400000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 43
+        },
+        {
+          "blockNumber": "18122879",
+          "blockHash": "0x628829974dcc3a2cae916e668abe4313493e2b6abd6e8f307a0accc5e142493f",
+          "timeStamp": "1694553491",
+          "hash": "0x462cd0ceb5b3808791efca2825df0f80c8eb3980cf093c8da020fd3361b3bd83",
+          "nonce": "2202",
+          "transactionIndex": "74",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "13761629214",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006c72a9f33a895ebc40",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "5957252",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2719458",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2000510762384757800000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 44
+        },
+        {
+          "blockNumber": "17619257",
+          "blockHash": "0xec9c69115b61248e8e3786e45cc93683fd5eda254d6f3ce00fa7becefdadfede",
+          "timeStamp": "1688457911",
+          "hash": "0x4ed66388500b6c3927ac690942e23620dfb3bcfd25766edc7be98a5f4446fe06",
+          "nonce": "1638",
+          "transactionIndex": "64",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "20662908499",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000067144f49d3974ab620",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4157245",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3223080",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1901478109169127700000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 45
+        },
+        {
+          "blockNumber": "17847492",
+          "blockHash": "0xc470069851fcced5ffded08ae11e4c0dca32431557df572ac0513844bb318ffa",
+          "timeStamp": "1691223071",
+          "hash": "0xa0e47a409787d48152e2af9ff86162edcc5681ce0263f835c6a5f0ae6cd10e5c",
+          "nonce": "1894",
+          "transactionIndex": "74",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "16036684071",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000683942e3d466554580",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "5154047",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2994845",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1922587494375807600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 46
+        },
+        {
+          "blockNumber": "16654254",
+          "blockHash": "0xc33d9558866e8ceff9b4ce46b050c28d701af4c9173b3bf9ea2f287f61dd5e5d",
+          "timeStamp": "1676707931",
+          "hash": "0xcd630346cf27edde19a496e9a724f4960671a914da55c1d0e589f13967729cad",
+          "nonce": "759",
+          "transactionIndex": "31",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "25106262395",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000f20268ec57eb0c0ac0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3799636",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "4188083",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "4464285714285715000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 47
+        },
+        {
+          "blockNumber": "17451506",
+          "blockHash": "0xb65fa7d1572f81b999ea47866bec4c665545c6ab6d140687da5c6f4bdda5d0b2",
+          "timeStamp": "1686421211",
+          "hash": "0xc5de24e31d83ac1e8a5244fa6ddfbbc881ec9be4158f237c684c84a6f4ad3338",
+          "nonce": "1450",
+          "transactionIndex": "115",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "16903715059",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006dae8aa335b20abd60",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "5542015",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3390831",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2023272148394742300000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 48
+        },
+        {
+          "blockNumber": "19823780",
+          "blockHash": "0xfc0630630706cef5cb72decd9f595716561cc5af5974c478dd2867f90f2b91f3",
+          "timeStamp": "1715152391",
+          "hash": "0x3035fba7c5cc7c55d81b82cd3baec1527ef7fe64ebb78482e8ba7afbd229b78f",
+          "nonce": "4094",
+          "transactionIndex": "52",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "4956812247",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003e318e0ef73ac0b140",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "2115532",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1018557",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1147268940579549000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 49
+        },
+        {
+          "blockNumber": "17003288",
+          "blockHash": "0xc09026c727a822da4a1c06be810aff463950e130663a9375fcc255e50babbd50",
+          "timeStamp": "1680952103",
+          "hash": "0xab461bed3349317736818b1dabb4b0c82cc986f81bc20a4f98abb1cf118525e2",
+          "nonce": "41",
+          "transactionIndex": "4",
+          "from": "0x6e074b3aa4b1fddda2b0fcb6b4c4c70875b548b3",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "515538",
+          "gasPrice": "26803151786",
+          "input": "0x51cff8d9000000000000000000000000468f0dc9bdf641e137fc0e53d46668890c1bcb18",
+          "methodId": "0x51cff8d9",
+          "functionName": "withdraw(address addr)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "2340329",
+          "txreceipt_status": "1",
+          "gasUsed": "294727",
+          "confirmations": "3839049",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "withdraw(address addr)",
+              "selector": "0x51cff8d9",
+              "types": [
+                "address"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x468f0dc9bdf641e137fc0e53d46668890c1bcb18"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x51cff8d9|address:other",
+            "stats": {
+              "p95Gas": 311827,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 50
+        },
+        {
+          "blockNumber": "17398634",
+          "blockHash": "0xc87b212d4151850a6fff92beae1b7dbee3069fbae14943c9b8e1907b11760e8c",
+          "timeStamp": "1685776811",
+          "hash": "0xc7503ff5e0dac8591d74693960cb9d566685ac9f2a6d539abf4bc46ce5d19144",
+          "nonce": "1390",
+          "transactionIndex": "92",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "20303921899",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006d5261434b37bd1fa0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6278835",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3443703",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2016631203808528900000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 51
+        },
+        {
+          "blockNumber": "18657804",
+          "blockHash": "0x0eb69791b9f89d55fbe3830b63b3cdf949fdb0bbfcfb1fa1d6b5a4b9e01ab8a6",
+          "timeStamp": "1701025451",
+          "hash": "0xb32d51994e1900630e3d22c6810779e0fd207559b938365ffb4684bc9409b498",
+          "nonce": "2802",
+          "transactionIndex": "70",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "31703814822",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006a94778927ba283160",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "5197676",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2184533",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1966053042056774300000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 52
+        },
+        {
+          "blockNumber": "20148613",
+          "blockHash": "0xd765f2126abef038555cf0d0132c7b973155e2e91e7dc0926bb85671853b008c",
+          "timeStamp": "1719075851",
+          "hash": "0x01829fcc6d779d94ee869f97379c6516562dc7f8b74938742ffefe6b09b93fbc",
+          "nonce": "1",
+          "transactionIndex": "131",
+          "from": "0x70613046d430f35fc40fdb4c8257251fe3be5747",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "451776",
+          "gasPrice": "3326162256",
+          "input": "0x47e7ef2400000000000000000000000009984e1df267108e9d5579b197b9ea3e420af26900000000000000000000000000000000000000000000021e19e0c9bab2400000",
+          "methodId": "0x47e7ef24",
+          "functionName": "deposit(address token, uint256 amount)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "14381919",
+          "txreceipt_status": "1",
+          "gasUsed": "281778",
+          "confirmations": "693724",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "deposit(address token, uint256 amount)",
+              "selector": "0x47e7ef24",
+              "types": [
+                "address",
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x09984e1df267108e9d5579b197b9ea3e420af269"
+              },
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "10000000000000000000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x47e7ef24|address:other|uint256:other",
+            "stats": {
+              "p95Gas": 286578,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 53
+        },
+        {
+          "blockNumber": "17729830",
+          "blockHash": "0x6e265db460d08adfd6181b3376ca3176978bfd3326ad34a4f66a5903c958602a",
+          "timeStamp": "1689801071",
+          "hash": "0x931d89ef4e05852e1e1e1cc41e2cc0f4d1f62a107dd03105fc4c95888c92c422",
+          "nonce": "1762",
+          "transactionIndex": "76",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "37971207676",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000682b8b6617be5b83c0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "10071580",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3112507",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1921599097483351000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 54
+        },
+        {
+          "blockNumber": "19381720",
+          "blockHash": "0xd2f73768c8bffef5dc3f55bc3444c49bc3c177374e1f874817cb118d70730936",
+          "timeStamp": "1709795531",
+          "hash": "0x6769e01f752435ed389d2cf3cceb8dd52d50f4a0442f77f4d1d097c45cf61b6b",
+          "nonce": "3598",
+          "transactionIndex": "109",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "47874174295",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000457c100e33a032c9a0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "11118750",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1460617",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1281765001961183300000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 55
+        },
+        {
+          "blockNumber": "17608348",
+          "blockHash": "0xc5bc2c0ae893317c4cfd433f33dfac513e5309a088cd471b3fd979559c949f28",
+          "timeStamp": "1688325431",
+          "hash": "0xbb11b6e5a0db547605f0dcc18ec8e0c861054ce15ac7edf459810a5f353ee7e3",
+          "nonce": "1626",
+          "transactionIndex": "286",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "14208233249",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000675cebc43b8c352b40",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "11151569",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3233989",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1906710300623134600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 56
+        },
+        {
+          "blockNumber": "17164696",
+          "blockHash": "0x5968626a005017799060824d9f125efcdb5698a7387c8c91b28dd6f1d74f705e",
+          "timeStamp": "1682928551",
+          "hash": "0x43816be87f050d0a14bdad035927aac74daffe5d2c78440230157be7c84b6d67",
+          "nonce": "1170",
+          "transactionIndex": "97",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "44368232444",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006d4b6930ede601cbc0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "7292966",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3677641",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2016129032258064600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 57
+        },
+        {
+          "blockNumber": "17003519",
+          "blockHash": "0x82b1d47ef9a42eee243cd07e870cc27ccaaa38ec6a65a678baded1aa8403a9a8",
+          "timeStamp": "1680954911",
+          "hash": "0xcd09dc92e8736934e461988f29064ea4e49ccc41310e47a797ab8e787536e77d",
+          "nonce": "1025",
+          "transactionIndex": "29",
+          "from": "0xa80209b06d7f4c0028b3a3aae4011357b7eaf752",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "518895",
+          "gasPrice": "21613343916",
+          "input": "0x51cff8d9000000000000000000000000f3edd1f4eaf1407af53598ebe74444c13e6aa458",
+          "methodId": "0x51cff8d9",
+          "functionName": "withdraw(address addr)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "1737203",
+          "txreceipt_status": "1",
+          "gasUsed": "292130",
+          "confirmations": "3838818",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "withdraw(address addr)",
+              "selector": "0x51cff8d9",
+              "types": [
+                "address"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0xf3edd1f4eaf1407af53598ebe74444c13e6aa458"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x51cff8d9|address:other",
+            "stats": {
+              "p95Gas": 311827,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 58
+        },
+        {
+          "blockNumber": "20259459",
+          "blockHash": "0x218dda168e728d22706a88023a882a37902a94ba6f3dd306a39798f9e4e0d668",
+          "timeStamp": "1720413527",
+          "hash": "0xce7aa0c88fa041cd643ce0a6394aea661411d1a5f6cd6f8df2577ac454cde850",
+          "nonce": "4608",
+          "transactionIndex": "125",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "1364222966",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003fcc9fad6828f20a00",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "14042675",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "582878",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1176889571011611200000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 59
+        },
+        {
+          "blockNumber": "18086285",
+          "blockHash": "0xb5050a3d8713b1e72d50ba654b615562322b43057ce53a465bc70afe557e8d53",
+          "timeStamp": "1694110691",
+          "hash": "0x262273a68236f40d6a6b859719c0b8db71da3df6fea0e7b3941da1530ffd8d60",
+          "nonce": "2162",
+          "transactionIndex": "177",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "38987969680",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006c72a9f33a895ebc40",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "17643732",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2756052",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2000510762384757800000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 60
+        },
+        {
+          "blockNumber": "18550652",
+          "blockHash": "0xa29dcde9333ce399d6e96f8bfb0e96ae6079465af49a98ae1f8cc36e685ff7f2",
+          "timeStamp": "1699729451",
+          "hash": "0xf8b4f53c1575d1d4706f3158e8e478b7769b7fe1bbc9e55ee3603c971e7eb87d",
+          "nonce": "2682",
+          "transactionIndex": "94",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "30900981323",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006af3804b297adbef20",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "8523604",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2291685",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1972900978602974900000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 61
+        },
+        {
+          "blockNumber": "19075187",
+          "blockHash": "0x66137390c6ab43dbc3ec7e739f3aa57370c6f5dcb51b1a46aabe48c8834f1f78",
+          "timeStamp": "1706083475",
+          "hash": "0xe2c89165b1663cbef76d4db4aff33d030d5826b8a643a445b8531c288e7745fd",
+          "nonce": "52",
+          "transactionIndex": "78",
+          "from": "0x1ac1923a52cc6a52783e15d4fed51c9f8a033f3d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "398731",
+          "gasPrice": "10613845075",
+          "input": "0x47e7ef24000000000000000000000000c162cd8480f9b716c3d5708eb765884c86c65de000000000000000000000000000000000000000000000021e19e0c9bab2400000",
+          "methodId": "0x47e7ef24",
+          "functionName": "deposit(address token, uint256 amount)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6648361",
+          "txreceipt_status": "1",
+          "gasUsed": "247578",
+          "confirmations": "1767150",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "deposit(address token, uint256 amount)",
+              "selector": "0x47e7ef24",
+              "types": [
+                "address",
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0xc162cd8480f9b716c3d5708eb765884c86c65de0"
+              },
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "10000000000000000000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x47e7ef24|address:other|uint256:other",
+            "stats": {
+              "p95Gas": 286578,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 62
+        },
+        {
+          "blockNumber": "18254068",
+          "blockHash": "0x3e05cd133537e78d0dc85416f2fd84583ee2a05d04f5aea054f7cc93d3c4838a",
+          "timeStamp": "1696143731",
+          "hash": "0x1ddf32141096434ec045c9d66e0349871a90db89de4763899348111455125752",
+          "nonce": "2350",
+          "transactionIndex": "40",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "9253824365",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000068ce4cd650017c8c00",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4077484",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "2588269",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1933326875774947200000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 63
+        },
+        {
+          "blockNumber": "18012176",
+          "blockHash": "0x9e97decc24d9615885e99723f350fd87080e36fd9b003605428a2ae33c199332",
+          "timeStamp": "1693213991",
+          "hash": "0xabb873735ddeaebc41e20364d6b640cc9e0059329705013d34357c6bd2ef372f",
+          "nonce": "2078",
+          "transactionIndex": "83",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "18650272860",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000690b97b1e82de5cd00",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6038421",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "2830161",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1937743459606164000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 64
+        },
+        {
+          "blockNumber": "18196712",
+          "blockHash": "0x474c8e59a48f7be2af6e707ef1388c7a4d9d3021dacfa6bc1e16d2ecdb5a41ad",
+          "timeStamp": "1695450251",
+          "hash": "0xb67f3c333e134b6c077092befb8d36b92b64bd10a25f4542cdc3cc08c0d944ad",
+          "nonce": "2286",
+          "transactionIndex": "33",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "9373558956",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006c4ca4bb52ac365700",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3626864",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "2645625",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1997771104967445600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 65
+        },
+        {
+          "blockNumber": "19533475",
+          "blockHash": "0x283fdfd7eff6ecbef64c6a4164230a86d0817f4b038d7898226659dc6217da09",
+          "timeStamp": "1711639655",
+          "hash": "0xd7531695dcd358a4f56787acbbd65565a09fc63eff941ad49498daeb1ae38f44",
+          "nonce": "17",
+          "transactionIndex": "169",
+          "from": "0x58434597bbb55b33d4412cb68a700ab2a9ef173f",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "283192",
+          "gasPrice": "43389862686",
+          "input": "0x47e7ef240000000000000000000000009d2b8ba6f6069982fcf9f9b1740decb3cf09226800000000000000000000000000000000000000000000021e19e0c9bab2400000",
+          "methodId": "0x47e7ef24",
+          "functionName": "deposit(address token, uint256 amount)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "11918465",
+          "txreceipt_status": "1",
+          "gasUsed": "269478",
+          "confirmations": "1308862",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "deposit(address token, uint256 amount)",
+              "selector": "0x47e7ef24",
+              "types": [
+                "address",
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x9d2b8ba6f6069982fcf9f9b1740decb3cf092268"
+              },
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "10000000000000000000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x47e7ef24|address:other|uint256:other",
+            "stats": {
+              "p95Gas": 286578,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 66
+        },
+        {
+          "blockNumber": "19129101",
+          "blockHash": "0x703c5964776e1a00121c36b52522121c7bd3fc0c73ea4f48d9ee581415c5d84a",
+          "timeStamp": "1706736011",
+          "hash": "0xa98e6efce56a38470ef34e99de6004511ce1cb0f4f6d7be52db7337afd701315",
+          "nonce": "3314",
+          "transactionIndex": "62",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "24098322658",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000062ecc1425880b97180",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4265720",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1713236",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1824840909034876400000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 67
+        },
+        {
+          "blockNumber": "20288093",
+          "blockHash": "0x94b807a72d708677ef00f8c216014bdda033114a5731948a2051c7cda06880ff",
+          "timeStamp": "1720759127",
+          "hash": "0xbb60a73992888e0abc77ed4184d857d0e02f1b41aa9289492bcf873f5bf243fe",
+          "nonce": "4648",
+          "transactionIndex": "80",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "1866570175",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000040117bc289d2a31420",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "8098882",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "554244",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1181851435135391700000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 68
+        },
+        {
+          "blockNumber": "16524901",
+          "blockHash": "0xb3f01b8881a6507d9114d0265ea47081861e25be838c556e618831aea3079ac6",
+          "timeStamp": "1675145111",
+          "hash": "0x9e087f7bd1b781a46be608096cf227324d8a3e30d57f0a1d050cfb8e4c1d2c90",
+          "nonce": "699",
+          "transactionIndex": "44",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "15590532724",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000da96d261dbcc051e20",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "2723094",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "4317436",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "4032258064516129300000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 69
+        },
+        {
+          "blockNumber": "17786485",
+          "blockHash": "0x8da1ea49e9356be03aac3c3a58856832dda944a9daaed14a481a39e36dd57dd1",
+          "timeStamp": "1690486031",
+          "hash": "0x5df2bc0af935fe6c15dc78eefe526e33a7cbf3d5560f196ff3ee135bf2b8e63a",
+          "nonce": "1826",
+          "transactionIndex": "70",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "39380545286",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000681c70c000e40f88a0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6241858",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "3055852",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1920510732606305700000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 70
+        },
+        {
+          "blockNumber": "18461949",
+          "blockHash": "0x68720d58ecd35efb54a6cfe498ba00a63ad453bf2e7b91766e042af88311b094",
+          "timeStamp": "1698656495",
+          "hash": "0x49e5774ab139905928ff21d948254adc70aa28ff5eea2ac796f32b0549b267a3",
+          "nonce": "23",
+          "transactionIndex": "116",
+          "from": "0xcdae8098ab8722da8546d4481b588dbea74242ee",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "518895",
+          "gasPrice": "15380032477",
+          "input": "0x51cff8d9000000000000000000000000d52d81a0f44abfa0a194de5d8da351154543a372",
+          "methodId": "0x51cff8d9",
+          "functionName": "withdraw(address addr)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "10759620",
+          "txreceipt_status": "1",
+          "gasUsed": "296930",
+          "confirmations": "2380388",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "withdraw(address addr)",
+              "selector": "0x51cff8d9",
+              "types": [
+                "address"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0xd52d81a0f44abfa0a194de5d8da351154543a372"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x51cff8d9|address:other",
+            "stats": {
+              "p95Gas": 311827,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 71
+        },
+        {
+          "blockNumber": "19705783",
+          "blockHash": "0xe377bbf2f08b30976f054a15f1e3a0e474ee8cc901e8b3909d6c3de8f6d2cf41",
+          "timeStamp": "1713726683",
+          "hash": "0x3294637b2c8ac9797ec403e14bdf361b78ca25ad93fafd147852c4f92d3a258a",
+          "nonce": "3962",
+          "transactionIndex": "102",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "7846774427",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003c256dfd671c42f0e0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "7440498",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1136554",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1109501734793735500000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 72
+        },
+        {
+          "blockNumber": "18207629",
+          "blockHash": "0x28b0a01eec7467f78397d86c9f155a4779d5477e11e3a12a9460f94833c451b4",
+          "timeStamp": "1695582371",
+          "hash": "0xc543bfc6a2ff3dde7e8fc8e514e146513529a4731153d483ec8459fae3d11f2a",
+          "nonce": "2298",
+          "transactionIndex": "41",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "9441655137",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006c4ca4bb52ac365700",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4258749",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "2634708",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1997771104967445600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 73
+        },
+        {
+          "blockNumber": "19548408",
+          "blockHash": "0x763dfa67174a5c17645064a5d98ec58c4b38ffb6815245254350fd1ea54e832a",
+          "timeStamp": "1711821671",
+          "hash": "0x0a30b2630277055fc7428beaa208d295a4615f929575325a6409dd9262f3dfe7",
+          "nonce": "3786",
+          "transactionIndex": "170",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "25039096729",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000451bfc8c6cf17c1a80",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "16690621",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1293929",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1274841982218650000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 74
+        },
+        {
+          "blockNumber": "19977758",
+          "blockHash": "0xb665bbc0f4f4c11ea6ca71c4277089809bb7a7f2f6a31f075442d4125ebf97b0",
+          "timeStamp": "1717012871",
+          "hash": "0x2b5666518aae8a49a4ac5e52c968451345fffeef029105b35d3889f1dfba8066",
+          "nonce": "4266",
+          "transactionIndex": "83",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "12636848007",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003c81ae986d95b55100",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "17805417",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "864579",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1116149218295844000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 75
+        },
+        {
+          "blockNumber": "19690232",
+          "blockHash": "0x587e384700fae9a448000cfed45b35c730675198dbd59946fd2877bbbee0cbcf",
+          "timeStamp": "1713538775",
+          "hash": "0x856f01151a1c15aa053c920c11f2f4a193b3ed4250c6ee2ebf77c3390fe0f275",
+          "nonce": "1",
+          "transactionIndex": "16",
+          "from": "0x2f4c17ec11d66c1f90e037a37a67197d7c496f8a",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "450846",
+          "gasPrice": "16852709673",
+          "input": "0x47e7ef24000000000000000000000000ff11887cff12d1f0ad305d5edbd8205dfb743e2600000000000000000000000000000000000000000000021e19e0c9bab2400000",
+          "methodId": "0x47e7ef24",
+          "functionName": "deposit(address token, uint256 amount)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "1118764",
+          "txreceipt_status": "1",
+          "gasUsed": "286578",
+          "confirmations": "1152105",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "deposit(address token, uint256 amount)",
+              "selector": "0x47e7ef24",
+              "types": [
+                "address",
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0xff11887cff12d1f0ad305d5edbd8205dfb743e26"
+              },
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "10000000000000000000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x47e7ef24|address:other|uint256:other",
+            "stats": {
+              "p95Gas": 286578,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 76
+        },
+        {
+          "blockNumber": "19745153",
+          "blockHash": "0xa580db430c090ffc096cb8c40c6b6c0de34e54505901bc2e2c01bf89fabbb906",
+          "timeStamp": "1714202531",
+          "hash": "0xd7aea8c6401b1e6bd31673e0d94ac501fa2e44188ebe387746eeaaa09903ef75",
+          "nonce": "4006",
+          "transactionIndex": "45",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "7022516678",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003e7e1c0c4844b66040",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3693148",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1097184",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1152785284222649000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 77
+        },
+        {
+          "blockNumber": "17718896",
+          "blockHash": "0x72f45b6705786108bad54ba07a95efef0c6d73ade70aa2b7e466647659de964b",
+          "timeStamp": "1689668531",
+          "hash": "0x4eb71dcc8fbf78ac9eb43c5671723470b0cefbbab5d37f9111d572a6a7ba5098",
+          "nonce": "1750",
+          "transactionIndex": "210",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "37238746434",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000682b8b6617be5b83c0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "18515230",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3123441",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1921599097483351000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 78
+        },
+        {
+          "blockNumber": "17086480",
+          "blockHash": "0x602496de830365cc39f2c0795dd49a7b0ad09adfb82328b0ba80f19733d6ef5a",
+          "timeStamp": "1681978631",
+          "hash": "0x43c0357ab8cb4ecbcc1b77a7ce056f1dedb3fd31ebaa280088ecf2d8037de1c6",
+          "nonce": "1104",
+          "transactionIndex": "65",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "54312503863",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000070f00ed4b18fcfe060",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4018108",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3755857",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2083333333333333500000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 79
+        },
+        {
+          "blockNumber": "19566891",
+          "blockHash": "0x8c4e84910aeef0b66394b4dadf66d664466433d9cbb2c08a457e00763d48d4d0",
+          "timeStamp": "1712046071",
+          "hash": "0xe2741cdf8617e21f17631fd12937bcec865a9c779d7c3e7a25ff270dec4539e9",
+          "nonce": "3806",
+          "transactionIndex": "122",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "40453773283",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000047647416c60e19c520",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "8626598",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1275446",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1316957264774365300000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 80
+        },
+        {
+          "blockNumber": "19927190",
+          "blockHash": "0xd5253b75e39d90dfb81c77fb1abec5215d1b818f6fef6cc4e0967009863b91ab",
+          "timeStamp": "1716402251",
+          "hash": "0x7dff03e9151eef7673af7ed88117e897aded4bee06eefc9219e8f5627d78ada3",
+          "nonce": "4210",
+          "transactionIndex": "79",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "22770623410",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003db446e09b3e7487c0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "7735864",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "915147",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1138241705628851800000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 81
+        },
+        {
+          "blockNumber": "20174305",
+          "blockHash": "0xe15884339cae5b63efa75498a3af4d421892550f7fa1541331b2eea3062ccd7d",
+          "timeStamp": "1719386111",
+          "hash": "0x87d1e2119f0d4f2d219cd2176ae90c8876b6fb363d4af742c2973a0e8ac74f62",
+          "nonce": "4486",
+          "transactionIndex": "76",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "3518095665",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000040ca6b2b346f74b540",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6049600",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "668032",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1195177420039789000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 82
+        },
+        {
+          "blockNumber": "18850847",
+          "blockHash": "0xf45053ba9850286fcc57ef00a0917b6989c8a663c6490c52c1239cc6192d7049",
+          "timeStamp": "1703362751",
+          "hash": "0x078d7bda23c279ce74559a9a7ad2911c7df285a86b193f28068f923a5ab96653",
+          "nonce": "3018",
+          "transactionIndex": "44",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "21199727566",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006673d425825d07b940",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "2891459",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1991490",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1889914232769635400000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 83
+        },
+        {
+          "blockNumber": "19432689",
+          "blockHash": "0xd701d7f3781ff27fdee8dcbdfdbf21cccdfb254a2ec27399aac209533b7ebb60",
+          "timeStamp": "1710412487",
+          "hash": "0x6ea2e4d3921eb79867ba52b40ba2fdf4df2de7e307f65f7742bf9f3bdb48a96c",
+          "nonce": "10",
+          "transactionIndex": "63",
+          "from": "0x58434597bbb55b33d4412cb68a700ab2a9ef173f",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "283192",
+          "gasPrice": "46357982675",
+          "input": "0x47e7ef240000000000000000000000003b0a87207cde77bb67ce0e047e497b66be5599c500000000000000000000000000000000000000000000021e19e0c9bab2400000",
+          "methodId": "0x47e7ef24",
+          "functionName": "deposit(address token, uint256 amount)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4610075",
+          "txreceipt_status": "1",
+          "gasUsed": "264678",
+          "confirmations": "1409648",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "deposit(address token, uint256 amount)",
+              "selector": "0x47e7ef24",
+              "types": [
+                "address",
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x3b0a87207cde77bb67ce0e047e497b66be5599c5"
+              },
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "10000000000000000000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x47e7ef24|address:other|uint256:other",
+            "stats": {
+              "p95Gas": 286578,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 84
+        },
+        {
+          "blockNumber": "19541898",
+          "blockHash": "0xd4fee761656f02483c42200b30143f5b43572633f674c0aa316cf6c83973d988",
+          "timeStamp": "1711742531",
+          "hash": "0xcde6f26c94e012a2700ee35e20b0af25d50c86e860ff89e6d07f9697b89ac5ff",
+          "nonce": "3778",
+          "transactionIndex": "75",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "36812458456",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000004527a29f65bf566200",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6098477",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "1300439",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1275681361459016000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 85
+        },
+        {
+          "blockNumber": "18115186",
+          "blockHash": "0x1e75784e54ce57fc72148899ee9edadfc91ab98c8f99124a00a2970dc299084f",
+          "timeStamp": "1694460371",
+          "hash": "0xc87c4178177b79ad1e810fba92e6fe12abce898e52cd7990007f78bd27930320",
+          "nonce": "2194",
+          "transactionIndex": "36",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "38472472376",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006c72a9f33a895ebc40",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "2690301",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2727151",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2000510762384757800000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 86
+        },
+        {
+          "blockNumber": "19349745",
+          "blockHash": "0x6f4d33545e152ffb20e6062c150d61ecc03130ecea45d9fed709820a70fd1d39",
+          "timeStamp": "1709409791",
+          "hash": "0x7c662b92e9f4a30da6a937b9789094a2a8f11e272bd40093faf2c08bf031d478",
+          "nonce": "3562",
+          "transactionIndex": "58",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "65259540550",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000519c1d4ada08d746e0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6041279",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1492592",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1505435499715026700000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 87
+        },
+        {
+          "blockNumber": "17157313",
+          "blockHash": "0x3bed292232228b49168a9e8c5e87f940ebc5368f642c7fce757c35ee215d4f45",
+          "timeStamp": "1682838911",
+          "hash": "0x19fba772c73ff5eaf866eedafc5239967cbaf9664572e3647b5bd8fdf0b0eb26",
+          "nonce": "1164",
+          "transactionIndex": "53",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "37159141270",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000070f00ed4b18fcfe060",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4691299",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3685024",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2083333333333333500000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 88
+        },
+        {
+          "blockNumber": "17789948",
+          "blockHash": "0x93282df0915c4e0fdd45e7ff184e11df72e6d4c6eed9f5c4be638a2b52169e32",
+          "timeStamp": "1690527911",
+          "hash": "0x7090705f9a6c62fe81436bd89a0c1d1e6387d5c184bc1aaed2c3bb5e2b24775f",
+          "nonce": "1830",
+          "transactionIndex": "44",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "32266527411",
+          "input": "0x74de4ec40000000000000000000000000000000000000000000000681c70c000e40f88a0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "5074553",
+          "txreceipt_status": "1",
+          "gasUsed": "63998",
+          "confirmations": "3052389",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1920510732606305700000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 89
+        },
+        {
+          "blockNumber": "19446256",
+          "blockHash": "0xc75f001ee899e595ca07be3eadf7e2e9e7ef3b61e7c509c8eb78527563f50c54",
+          "timeStamp": "1710577463",
+          "hash": "0xd638b3bb15a2fa26cca6660b315ffb6e08fada59ba5914b35b181e2731dbc1c9",
+          "nonce": "3670",
+          "transactionIndex": "23",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "35503445361",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000045726b747e59b323a0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "2833574",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1396081",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1281070152714810500000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 90
+        },
+        {
+          "blockNumber": "19459820",
+          "blockHash": "0xeed6020e28e640b571208448f0233a7e346691e3f546749fb9e19af73f60a516",
+          "timeStamp": "1710742331",
+          "hash": "0x60f5cd9d1c72569402f084e1132cc01b5eb7a00a7e779062640f95eeb64959e4",
+          "nonce": "3686",
+          "transactionIndex": "68",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "24769747062",
+          "input": "0x74de4ec4000000000000000000000000000000000000000000000045209f39c675e50180",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4648863",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "1382517",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1275176002141014000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 91
+        },
+        {
+          "blockNumber": "19346174",
+          "blockHash": "0x711efe848b1b3b6ee4a6f874a8c636c1e0181ddb47785c8dc0103e63a57b028a",
+          "timeStamp": "1709366687",
+          "hash": "0x6e53ec51854bc45ec72e747b9db61797e1b20b6c0f523a3f2ead783fd267ed91",
+          "nonce": "136",
+          "transactionIndex": "87",
+          "from": "0x3706e1cdb3254a1601098bae8d1a8312cf92f282",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "519816",
+          "gasPrice": "46856932906",
+          "input": "0x51cff8d9000000000000000000000000071e599531f502c071ba9f18298425178bae2bd2",
+          "methodId": "0x51cff8d9",
+          "functionName": "withdraw(address addr)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "6186020",
+          "txreceipt_status": "1",
+          "gasUsed": "292130",
+          "confirmations": "1496163",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "withdraw(address addr)",
+              "selector": "0x51cff8d9",
+              "types": [
+                "address"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x071e599531f502c071ba9f18298425178bae2bd2"
+              }
+            ],
+            "rarity": {
+              "p95Gas": false,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x51cff8d9|address:other",
+            "stats": {
+              "p95Gas": 311827,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 92
+        },
+        {
+          "blockNumber": "17200553",
+          "blockHash": "0x48bf38fad918674cc4d25e9eaf3b4b87691be8b821447f91d4cf2894c920238d",
+          "timeStamp": "1683363971",
+          "hash": "0x5a75ac9917471a04dcc4a6812a11732fea6c4e59c2f0038f3446c81d2bcfa1b2",
+          "nonce": "1200",
+          "transactionIndex": "51",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "104704998477",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006d4b6930ede601cbc0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "2893665",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3641784",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2016129032258064600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 93
+        },
+        {
+          "blockNumber": "18133189",
+          "blockHash": "0x0b3ab2951d2e1109523f986c6ebdb9c033dc416190d8bc6d041ecb1ddf9149fd",
+          "timeStamp": "1694678411",
+          "hash": "0x1b21e7a1c428621dc0111e5c469259599f82fe1837877d85bea8dcbf95e21a8c",
+          "nonce": "2214",
+          "transactionIndex": "432",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "13023718329",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006c72a9f33a895ebc40",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "17588271",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2709148",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "2000510762384757800000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 94
+        },
+        {
+          "blockNumber": "18782825",
+          "blockHash": "0xd2d2624eba38c4b561303a9f22cc5fea73beec28530b00ae1e047354c5df67b5",
+          "timeStamp": "1702538051",
+          "hash": "0xe10c14625a64649f1a4b22d790ef553d9f06c0f24e478f18d8d704a2b4297699",
+          "nonce": "2942",
+          "transactionIndex": "69",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "46055910441",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006673d425825d07b940",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4841290",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2059512",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1889914232769635400000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 95
+        },
+        {
+          "blockNumber": "19014161",
+          "blockHash": "0xd5aa7bd3b47e1490d17220971fadec005ecc25a4793ff3d42d557baea20f662e",
+          "timeStamp": "1705344383",
+          "hash": "0x9a0ed5a06fb6051d9a659f829e57ea0e382f714cb43d55efaa317c69cfae14ee",
+          "nonce": "223",
+          "transactionIndex": "107",
+          "from": "0x6e074b3aa4b1fddda2b0fcb6b4c4c70875b548b3",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "541596",
+          "gasPrice": "35915210750",
+          "input": "0x51cff8d9000000000000000000000000c112232d5066baf99e65a5a9824613ce760c4018",
+          "methodId": "0x51cff8d9",
+          "functionName": "withdraw(address addr)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "9233869",
+          "txreceipt_status": "1",
+          "gasUsed": "311827",
+          "confirmations": "1828176",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "withdraw(address addr)",
+              "selector": "0x51cff8d9",
+              "types": [
+                "address"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0xc112232d5066baf99e65a5a9824613ce760c4018"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x51cff8d9|address:other",
+            "stats": {
+              "p95Gas": 311827,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 96
+        },
+        {
+          "blockNumber": "16669748",
+          "blockHash": "0x920d95fc9607475ab95372160f01a5dd32e887dbaf7dd5343226ef165e8396dc",
+          "timeStamp": "1676896019",
+          "hash": "0x80288ad5dc62d58560df110a3535af497449f9f6f4f71e34500b9f5045943ea7",
+          "nonce": "34",
+          "transactionIndex": "162",
+          "from": "0x6e074b3aa4b1fddda2b0fcb6b4c4c70875b548b3",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "567652",
+          "gasPrice": "24675130755",
+          "input": "0x51cff8d90000000000000000000000004b5179c0949c2759929d1a1e7204faba12e6d539",
+          "methodId": "0x51cff8d9",
+          "functionName": "withdraw(address addr)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "15090790",
+          "txreceipt_status": "1",
+          "gasUsed": "328927",
+          "confirmations": "4172589",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "withdraw(address addr)",
+              "selector": "0x51cff8d9",
+              "types": [
+                "address"
+              ]
+            },
+            "args": [
+              {
+                "t": "address",
+                "kind": "other",
+                "duplicate": false,
+                "bin": "address:other",
+                "decoded": "0x4b5179c0949c2759929d1a1e7204faba12e6d539"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": true,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x51cff8d9|address:other",
+            "stats": {
+              "p95Gas": 311827,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 97
+        },
+        {
+          "blockNumber": "17683293",
+          "blockHash": "0x544768186b3c606ab99d272357284346f93c790690ed2da1473fad552bfe1571",
+          "timeStamp": "1689235571",
+          "hash": "0x9c6e2b7b5b22a6445a36890cffbff16a6068141c61d74cd7c6ffbc1c45598840",
+          "nonce": "1710",
+          "transactionIndex": "120",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "16170111203",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006716dfed6f1cc606c0",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "16698102",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "3159044",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1901662936642204600000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 98
+        },
+        {
+          "blockNumber": "18540531",
+          "blockHash": "0x8b2dd26933d68f2aa7819e0115e8a16c0ee62e29fc0ab71a0161c2510afa6f30",
+          "timeStamp": "1699607051",
+          "hash": "0xedd3e4ec95387cc53899e05364a3846ccfd82650bade5f30e21f4607eeb00bb1",
+          "nonce": "2670",
+          "transactionIndex": "63",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "33906093072",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000006b78793e4030ee0960",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "4339178",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "2301806",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1982482654089075100000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 99
+        },
+        {
+          "blockNumber": "19870826",
+          "blockHash": "0xdaa737546ba72e490e467caf0d84c929d8980cc72c8a04b25444642e5a097e5b",
+          "timeStamp": "1715721191",
+          "hash": "0x653205815d35878b3dce95df46d9518daaac72caaf340b74e97ebda3db2e9c0f",
+          "nonce": "4146",
+          "transactionIndex": "60",
+          "from": "0x54e934ee6a2e7584b04321a15690e6b59dbce59d",
+          "to": "0x57ba886442d248c2e7a3a5826f2b183a22ecc73e",
+          "value": "0",
+          "gas": "80000",
+          "gasPrice": "7185333720",
+          "input": "0x74de4ec400000000000000000000000000000000000000000000003f1a7867db0c3d4e80",
+          "methodId": "0x74de4ec4",
+          "functionName": "addReward(uint256 recycleTime)",
+          "contractAddress": "",
+          "cumulativeGasUsed": "3887925",
+          "txreceipt_status": "1",
+          "gasUsed": "64010",
+          "confirmations": "971511",
+          "isError": "0",
+          "b2": {
+            "function": {
+              "name": "addReward(uint256 recycleTime)",
+              "selector": "0x74de4ec4",
+              "types": [
+                "uint256"
+              ]
+            },
+            "args": [
+              {
+                "t": "uint256",
+                "bits": 256,
+                "bin": "other",
+                "decoded": "1164052265276394000000"
+              }
+            ],
+            "rarity": {
+              "p95Gas": true,
+              "firstSeenInFunction": false,
+              "lastSeenInFunction": false,
+              "rareArgs": false,
+              "highValue": false,
+              "rareShape": false
+            },
+            "shapeKey": "0x74de4ec4|uint256:other",
+            "stats": {
+              "p95Gas": 64010,
+              "p99ValueWei": "0",
+              "nonZeroRate": 0
+            }
+          },
+          "txId": 100
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "responseKey": "bstpstaking312m970360f4",
+  "meta": {
+    "projectName": "bstpstaking",
+    "presetId": 3,
+    "sampleId": "1",
+    "repetitionId": 2,
+    "mutantHash": "m970360f4"
+  },
+  "request": {
+    "nCandidates": 100,
+    "kExpected": 10,
+    "killersInCandidates": [
+      "0x14d09a4d420ae8a7492d23eb1beacf31a514ddd9765719262cf2a750248f046e",
+      "0xae105f7f87da768b512fdfdb98a0fbf6131d1571893bb99b9a0ab477ff1702c2",
+      "0x281cd26d80e9cd95f098908b641c2534121c033c47795850d88fdab6f04f2af0",
+      "0xfd6b6381e462eb69a90451498acc82533df2612f7e00141667dbce964caa982e",
+      "0x68fb332560fdf6ea1d74d8c4bfc3ff952f79df911ac17e478862c0aa1c736db3",
+      "0x8e6ed61f936c34115ed64b52efb53b493d279f72a1ed2c1dde342f98dfc9178d",
+      "0xea69777677b59561b3782267ef6a65d6e0f38e1fea58f1ece52358972347edb0",
+      "0xe5da0f8dfb6b491adb9c38f755f10e08bd498ab5979036394be3930984053206",
+      "0x1721fbf3311a57adcac4eb75a9690451077fc079b0d94e4fa9d5a75bfb95e9c2",
+      "0x37890a125406e5e42ba213b40b55685bc6c328fc0106903b123b70d8312c1000"
+    ]
+  },
+  "modelResponse": {
+    "raw": {
+      "id": "resp_0c69256466999e1a00692ac7b42cd4819d893d765149431a9f",
+      "object": "response",
+      "created_at": 1764411316,
+      "status": "completed",
+      "background": false,
+      "billing": {
+        "payer": "developer"
+      },
+      "error": null,
+      "incomplete_details": null,
+      "instructions": null,
+      "max_output_tokens": null,
+      "max_tool_calls": null,
+      "model": "gpt-4o-mini-2024-07-18",
+      "output": [
+        {
+          "id": "msg_0c69256466999e1a00692ac7b7d188819db52bcc9ec85485da",
+          "type": "message",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "annotations": [],
+              "logprobs": [],
+              "text": "{\"selected\":[{\"txId\":1},{\"txId\":3},{\"txId\":4},{\"txId\":6},{\"txId\":7},{\"txId"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "id": "msg_0c69256466999e1a00692ac7c22a10819daa10930eb56b3935",
+          "type": "message",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "annotations": [],
+              "logprobs": [],
+              "text": "{\"selected\":[{\"txId\":1},{\"txId\":3},{\"txId\":4},{\"txId\":6},{\"txId\":7},{\"txId\":11},{\"txId\":18},{\"txId\":22},{\"txId\":36},{\"txId\":96}]}"
+            }
+          ],
+          "role": "assistant"
+        }
+      ],
+      "parallel_tool_calls": true,
+      "previous_response_id": null,
+      "prompt_cache_key": null,
+      "prompt_cache_retention": null,
+      "reasoning": {
+        "effort": null,
+        "summary": null
+      },
+      "safety_identifier": null,
+      "service_tier": "default",
+      "store": true,
+      "temperature": 0.4,
+      "text": {
+        "format": {
+          "type": "json_schema",
+          "description": null,
+          "name": "Transactions",
+          "schema": {
+            "name": "Transactions",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "selected": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "txId": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "txId"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "selected"
+            ]
+          },
+          "strict": true
+        },
+        "verbosity": "medium"
+      },
+      "tool_choice": "auto",
+      "tools": [],
+      "top_logprobs": 0,
+      "top_p": 1,
+      "truncation": "disabled",
+      "usage": {
+        "input_tokens": 17345,
+        "input_tokens_details": {
+          "cached_tokens": 17152
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 17401
+      },
+      "user": null,
+      "metadata": {},
+      "output_text": "{\"selected\":[{\"txId\":1},{\"txId\":3},{\"txId\":4},{\"txId\":6},{\"txId\":7},{\"txId{\"selected\":[{\"txId\":1},{\"txId\":3},{\"txId\":4},{\"txId\":6},{\"txId\":7},{\"txId\":11},{\"txId\":18},{\"txId\":22},{\"txId\":36},{\"txId\":96}]}"
+    },
+    "rawText": "{\"selected\":[{\"txId\":1},{\"txId\":3},{\"txId\":4},{\"txId\":6},{\"txId\":7},{\"txId{\"selected\":[{\"txId\":1},{\"txId\":3},{\"txId\":4},{\"txId\":6},{\"txId\":7},{\"txId\":11},{\"txId\":18},{\"txId\":22},{\"txId\":36},{\"txId\":96}]}",
+    "parsedJSON": null,
+    "selectedTxIds": [],
+    "selectedHashes": []
+  },
+  "analysis": {
+    "valid": {
+      "count": 0,
+      "instances": []
+    },
+    "killers": {
+      "count": 0,
+      "instances": []
+    },
+    "grounded": {
+      "count": 0,
+      "instances": []
+    },
+    "uniques": {
+      "count": 0,
+      "instances": []
+    },
+    "hallucinations": {
+      "count": 0,
+      "instances": []
+    },
+    "errors": {
+      "redundancy": {
+        "count": 0,
+        "instances": []
+      },
+      "cardinality": {
+        "type": "cardinality_NA",
+        "expected": 10,
+        "actual": 0
+      },
+      "format": {
+        "isError": 1
+      }
+    }
+  },
+  "quality": {
+    "status": "invalid",
+    "tags": [
+      "error_format"
+    ],
+    "metrics": {
+      "j": 0,
+      "FE": 1,
+      "HR": 0,
+      "GR": 0,
+      "UR": 0,
+      "OR": 0,
+      "RR": 0,
+      "KR": 0
+    }
+  }
+}
