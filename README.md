@@ -32,12 +32,12 @@ Contains all data related to LLM-based transaction selection.
 
 * `response/`: Raw LLM outputs for each prompt, including multiple repetitions per ablation configuration.
 
-## sumo/
+## /sumo
 Contains details about the mutants generated using the SuMo mutation testing framework, including mutation metadata used to simulate upgrade-induced behavioral deviations.
 
 * `results/mutants/`: Contains the mutated Solidity source files, one per mutant. Each file represents a variant of the original logic contract with a single injected mutation.
 * `results/mutations.json`: Provides metadata for the mutants, including mutation operators, mutation locations, and injected replacement.
 
-## transactions/
+## /transactions
 
 The `transactions.json` contains the complete historical transaction trace of the target contract, from which candidate transactions were sampled.
