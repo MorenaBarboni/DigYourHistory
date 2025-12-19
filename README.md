@@ -1,5 +1,5 @@
 # Repetition Package - DigYourHistory
-This repository contains the experiment data used in the ablation study presented in “Dig Your History: Capture–Replay Testing of Upgradeable Smart Contracts via LLMs”.
+This repository contains the experiment data used in the ablation study.
 The package includes the artifacts produced during the experiments, and is intended to support result inspection, replication, and further analysis.
 
 # Repository Structure
