@@ -1,5 +1,5 @@
-# Repetition Package - DigYourHistory
-This repository contains the experiment data used in the ablation study.
+# Repetition Package - Upgrade-Aware Capture-Replay Testing for Proxy-based Smart Contracts
+This repository contains the experiment data for the paper "Upgrade-Aware Capture-Replay Testing for Proxy-based Smart Contracts" (BCRA 2026).
 The package includes the artifacts produced during the experiments, and is intended to support result inspection, replication, and further analysis.
 
 # Repository Structure
